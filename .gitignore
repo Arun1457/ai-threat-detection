@@ -1,0 +1,37 @@
+# Large data files — too big for GitHub
+data/combined_cicids.csv
+data/*.pcap_ISCX.csv
+
+# Generated files — recreated on startup
+data/predicted_logs.csv
+
+# Model files — regenerated on startup
+models/threat_model.pkl
+models/feature_columns.pkl
+
+# Reports — generated on demand
+reports/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Conda / venv
+.env
+.venv
+env/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
