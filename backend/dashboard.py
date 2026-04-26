@@ -43,9 +43,8 @@ FEAT_FILE  = os.path.join(BASE_DIR, "models",  "feature_columns.pkl")
 # ─────────────────────────────────────────────
 # THREAT INTELLIGENCE
 # ─────────────────────────────────────────────
-VT_API_KEY     = "YOUR_VIRUSTOTAL_API_KEY"   # replace with yours
-SHODAN_API_KEY = "YOUR_SHODAN_API_KEY"        # replace with yours
-
+VT_API_KEY     = "612547e9b2a28046f6d3241fa960850eca22aecaecb8b7483136c1ad019fd617"   
+SHODAN_API_KEY = "4pqsK9TmDwXirvriNOyPTcAnlpg0tPSG"        
 def vt_check_ip(ip):
     try:
         r = requests.get(
